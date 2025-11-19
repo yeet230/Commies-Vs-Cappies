@@ -8,16 +8,19 @@ html {
 }
 
 .header {
-    background-color: #A2D5F2;
+    background: #537583;
     padding: 5px;
-    border: 8px solid #76C1e4;
+    border: 8px solid ;
+    border-color: #d63737 #002664 #003994 #be1918 ;
     font-size: clamp(1.5vw, 2.3vw, 4vw);
     margin: 5px auto;
+    color: rgb(20, 20, 20);
 }
 
 span{
     font-weight: bold;
     text-decoration: underline;
+    font-size: 20px;
 
 }
 body {
@@ -29,7 +32,7 @@ body {
 /* Article wrapper */
 .content {
     max-width: 750px;
-    margin: 40px auto;
+    margin: 10px auto;
     padding: 20px;
     background: #ffffff; /* White for contrast */
     border: 1px solid #B0C4DE; /* Light Steel Blue */
@@ -49,20 +52,17 @@ body {
 
 /* Paragraphs */
 p {
-    margin-bottom: 1.2rem;
-}
-
-/* Bold inline */
-span {
-    font-weight: bold;
+    margin-top: 0.9rem;
 }
 
 /* Images */
 img {
-    width: 100%;
-    height: auto;
-    margin: 10px auto;
+    width: 90%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
     border: 3px solid #E6F0FF; /* soft blue edge */
+    display: block;
 }
 
 /* Pull Quotes */
